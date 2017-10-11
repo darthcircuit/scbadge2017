@@ -1,0 +1,24 @@
+site_name: SaintCon 2017 Badge
+site_description: SaintCon 2017 badge assembly instructions.
+site_url: https://badge2017.saintcon.org/
+repo_url: https://gitlab.com/saintcon/Badge2017.git
+
+theme: readthedocs
+strict: true
+
+markdown_extensions:
+#http://pythonhosted.org/Markdown/extensions/admonition.html
+- admonition:
+- toc:
+    permalink: True
+
+site_dir: public
+
+site_favicon: img/favicon.png
+
+pages:
+- Overview: 'index.md'
+- 'Badge Assembly': 'assembly.md'
+- 'Upload Code': 'flashing.md'
+- 'Badge Registration': 'registration.md'
+- 'After The Con': 'RetroPiConversion.md'
